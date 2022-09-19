@@ -1,0 +1,34 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        String today = "Saturday";
+
+        switch (today) {
+            case "monday":
+                System.out.println("Nagbabasa");
+                break;
+            case "tuesday":
+                System.out.println("Nagvavalo ");
+                break;
+            case "wednesday":
+                System.out.println("Study");
+                break;
+            case "thursday":
+                System.out.println("Gagala");
+                break;
+            case "friday":
+                System.out.println("Basketball");
+                break;
+            case "Saturday":
+                System.out.println("Party");
+                break;
+            case "Sunday":
+                System.out.println("Rest");
+                break;
+            default: 
+            System.out.println("Incorrect Day");
+                break;
+        }
+
+    }
+}
