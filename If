@@ -1,0 +1,41 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+    
+    //conditional structure
+    boolean Ihavenocar = true;
+    boolean Holiday = true;
+      if (Ihavenocar){
+          System.out.println("Just commute");
+      }
+      else if (Holiday){
+          System.out.println("Spend time with my family");
+      }
+      else {
+          
+          
+          
+         // Step 1
+         rideJeep();
+         // Step 2
+         rideLRT();
+         // Step 3
+         walk();
+        
+    }
+
+    
+}
+static void rideJeep(){
+        System.out.println("Ride jeep along katipunan Street");
+        System.out.println("Exit jeep along Sumulong Highway");
+    }
+
+    static void rideLRT() {
+        System.out.println("Ride at Antipolo station");
+        System.out.println("Exit at Legarda station");
+    }
+    
+    static void walk() {
+        System.out.println("Walk for 3 mins");
+    }
+}
